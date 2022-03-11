@@ -184,7 +184,7 @@ close_firewall_selinux_soft () {
 		
 		apt install -y iproute2 ntpdate tcpdump telnet traceroute \
 		nfs-kernel-server nfs-common lrzsz tree openssl libssl-dev \
-		libpcre3 libpcre3-dev zlib1g-dev gcc openssh-server iotop \
+		libpcre3 libpcre3-dev zlib1g-dev gcc iotop \
 		unzip zip network-manager
 		echo 'PS1="[\[\e[1;31m\]\t \[\e[1;35m\]\u@\h \[\e[1;30m\]\w\[\e[0m\]]\\$ "' > /etc/profile.d/env.sh
 	else
